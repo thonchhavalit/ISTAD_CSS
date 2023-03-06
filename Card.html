@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/47e2160cea.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://istad.co/resources/img/logo_md.png" type="image/x-icon">
+    <title>Card</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            height: auto;
+            width: 350px;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: black;
+            color: white;
+            margin: auto;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        img {
+            max-width: 100%;
+
+        }
+
+        .card {
+            padding: 20px;
+        }
+
+        .beginer-heart {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        button {
+            background-color: lightgreen;
+            color: green;
+            border-radius: 5px;
+            border: none;
+        }
+
+
+        .fa-heart {
+            color: red;
+        }
+
+        .icon-star {
+            color: orange;
+            padding-bottom: 10px;
+        }
+
+        .rate {
+            color: white;
+            padding-left: 10px;
+        }
+
+        .sub-container {
+
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid lightgray;
+
+        }
+
+        .fa-clock {
+            color: red;
+            padding: 5px;
+        }
+
+        .fa-table {
+            color: darkorange;
+            padding: 5px;
+
+        }
+
+        h2:hover {
+            color: blue;
+        }
+
+        p {
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://eduport.webestica.com/assets/images/courses/4by3/07.jpg" alt="">
+        <div class="card">
+            <div class="card-body">
+
+                <div class="beginer-heart">
+                    <button>beginer</button>
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <h2>Deep Learing with React-Native</h2>
+                <p>Far advanced setting sat finished rainllery. Offered chiefly farther</p>
+
+            </div>
+            <div class="icon-star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i> <span class="rate">4.5/5.0</span>
+            </div>
+            <div class="sub-container">
+                <span><i class="fa-regular fa-clock"></i>18h 56m</span>
+                <span><i class="fa-solid fa-table"></i>99 lectures</span>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
